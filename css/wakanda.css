@@ -1,0 +1,234 @@
+body {
+    background: linear-gradient(to right,#0B0B0B,#11213F,#021740);
+   
+
+    }
+
+    h2{
+        font-family:'BEYNO', sans-serif;
+        
+    }
+
+    p{
+        font-size: 16px;
+        font-family: 'Cantarell', sans-serif;
+    }
+
+    /* header */
+
+.logo {
+    margin-top: 5%;
+    margin-left: 4%;
+}
+
+.menu {
+    display: flex;              /* Transformation en flexbox */
+    padding:0;                  /* Suppression des marges internes */
+}
+
+.menu li {
+    list-style-type: none ;       /* Suppression des puces */
+}
+
+.menu a {
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */
+    color: white;
+    font-family: 'BEYNO', sans-serif;
+}
+
+.navbar{
+    margin-left: 70%;
+    margin-top: -2%;
+
+}body {
+
+    background: linear-gradient(to right,#0B0B0B,#11213F,#021740);
+
+    }
+
+    h2{
+        font-family:'BEYNO', sans-serif;
+        
+    }
+
+    p{
+        font-size: 16px;
+        font-family: 'Cantarell', sans-serif;
+    }
+
+    /* header */
+
+.logo {
+    margin-top: 5%;
+    margin-left: 4%;
+}
+
+.menu {
+    display: flex;              /* Transformation en flexbox */
+    padding:0;                  /* Suppression des marges internes */
+}
+
+.menu li {
+    list-style-type: none ;       /* Suppression des puces */
+}
+
+.menu a {
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */
+    color: white;
+    font-family: 'BEYNO', sans-serif;
+}
+
+.navbar{
+    margin-left: 70%;
+    margin-top: -2%;
+}
+
+
+/*milieu 1 */
+.wakanda1{
+    width: 1520px;
+    height: 900px;
+    margin-left: -10%;
+    margin-top: -1%;
+}
+
+.gauche{
+    color: white;
+    margin-top: -40%;
+    margin-left: 8%;
+    width: 500px;
+}
+
+.txtI{
+    font-family: 'Wakanda Forever', sans-serif;
+    letter-spacing: 10px;
+}
+
+.txtII{
+    margin-right: 16%;
+    margin-top: 10%;
+}
+h1{
+    font-family:'BEYNO', sans-serif;
+    font-size: 47px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 20px;
+    margin-top: -25%;
+}
+/* fin milieu 1 */
+
+
+.milieu2{
+    display: flex;
+    margin-top: 25%;
+    color: white;
+    background-image: url(../Pantherwakanda2.png) ;
+    opacity: 0.5;
+    background-size: 1100px auto;
+}
+.un{
+    margin-left: 10%;
+    width: 420px;
+    margin-top: 5%;
+}
+.deux{
+    margin-left: 12%;
+    width: 420px;
+    margin-top: 5%;
+}
+p{
+    font-size: 16px;
+    
+}
+
+
+
+/* milieu 3 */
+
+.milieu3{
+    display: flex;
+    color: rgba(255, 255, 255, 0.301);
+}
+
+.wakanda3{
+    width: 400px;
+    margin-left: 6%;
+}
+
+
+.case{
+    width: 380px;
+    
+    height:200px;
+    background-color: #3D2DA6;
+    text-align: center;
+    padding-top: 4%;
+}
+
+a{
+    color: white;
+    size: 10px;
+}
+
+
+/*footer*/
+
+footer{
+    background: linear-gradient(to right,#3D2DA6,#021740);
+    color: white;
+    margin-top: 15%;
+    display: flex;
+    height: 360px;
+    padding-top: 10%;
+    margin-top: 2%;
+}
+
+.footer1{
+    width:230px;
+    margin-left: 18%;
+}
+
+.logo1{
+    margin-top: -75%;
+    margin-left: 40%;
+}
+.photo{
+    margin-left: 20%;
+}
+
+
+.page{
+    margin-left: 10%;
+}
+
+.rs{
+    margin-left:15% ;
+}
+
+.picft{
+    width: 35px;
+}
+
+.txt4{
+font-size: 17px;
+letter-spacing: 9px;
+}
+
+.txt5{
+    color: white;
+    margin-top: -15%;
+    margin-left: 45%;
+    font-size: 12px;
+}
+
+em{
+    font-size: 100px;
+    padding-right:-30%;
+    padding-left: 5%;
+}

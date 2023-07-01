@@ -1,0 +1,338 @@
+
+body {
+
+    background: linear-gradient(to right,#0B0B0B,#11213F,#021740);
+
+    }
+
+    h2{
+        font-family:'BEYNO', sans-serif;
+        
+    }
+
+    p{
+        font-size: 16px;
+        font-family: 'Cantarell', sans-serif;
+    }
+
+    /* header */
+
+.logo {
+    margin-top: 5%;
+    margin-left: 4%;
+}
+
+.menu {
+    display: flex;              /* Transformation en flexbox */
+    padding:0;                  /* Suppression des marges internes */
+}
+
+.menu li {
+    list-style-type: none ;       /* Suppression des puces */
+}
+
+.menu a {
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */
+    color: white;
+    font-family: 'BEYNO', sans-serif;
+}
+
+.navbar{
+    margin-left: 70%;
+    margin-top: -2%;
+}
+
+/* milieu1 */
+
+.milieu1{
+    display: flex;
+    visibility: hidden;   
+    animation: slide-in 1s ease-out; 
+}
+
+h1{
+    font-family: 'Panthera', sans-serif;
+    font-size: 60px;
+}
+
+.pantherhome1{
+    width: 900px;
+    height: auto;
+}
+
+.middle{
+    color: white;
+    margin-left: 6%;
+    margin-top: 12%;
+    
+}
+
+.right{
+    margin-top: 20%;
+    
+}
+
+h1{
+    font-size: 40px;
+}
+a{
+    color: white;
+}
+
+
+/* milieu2 */
+
+.milieu2{
+    display: flex;
+    background-color: #021740;
+    color: white;
+    margin-left: 3%;
+    height:220px;
+    visibility: hidden;   
+    animation: slide-in 1s ease-out; 
+
+}
+
+
+.deux{
+    margin-left: 4%;
+    margin-right: 2%;
+}
+
+.txt{
+    font-size: 13px;
+}
+
+.pantherhome2{
+    width: 190px;
+    
+}
+
+/*bouton next*/
+.btnNext{
+    margin-left: 96%;
+    margin-top: -12%;
+}
+.next-button{
+    border: none;
+    background-color: #07338C;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 15px 15px;
+    text-align: center;
+    margin: 4px 2px;
+
+}
+.next-icon{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid white;
+    border-top: 2px solid white;
+    transform: rotate(45deg);
+}
+.next-button:hover .next-icon{
+    border-color: black;
+}
+
+.next-button:active .next-icon{
+    border-color: black;
+}
+
+
+
+
+
+/* milieu3 */
+
+.milieu3{
+    display: flex;
+    color: white;
+    margin-top: 14%;
+    margin-left: 8%;
+    visibility: hidden;   
+    animation: slide-in 1s ease-out; 
+}
+
+.droite{
+    margin-right: 15%;
+}
+
+.gauche{
+    background-color: #FFFFFF;
+    margin-right: 9%;
+    border-radius: 6px;
+    color: black;
+   
+    padding-left: 10%;
+    height: 650px;
+    margin-top: 10%;
+
+}
+
+.pantherhome5{
+    width: 250px;
+    margin-top: -35%;
+    margin-left: -10%;
+    
+}
+
+.btn{
+    display: flex;
+    margin-left: -12%;
+}
+
+.bouton{
+    font-size: 60%;
+    background-color: #3D2DA6;
+    color: #FFFFFF;
+    border-radius: 3px;
+    border-color: rgba(255, 255, 255, 0);
+    height: 25px;
+}
+
+.txt1{
+    margin-left: 15%;
+    font-family: 'Cantarell', sans-serif;
+}
+
+.txt2{
+    margin-left: -15%;
+    font-size:12px ;
+    margin-right: 7%;
+}
+
+
+
+.pic{
+    margin-top: 200px;
+    margin-left: -7%;
+}
+
+.pantherhome6{
+    width: 300px;
+}
+
+
+/*formulaire*/
+.formulaire{
+visibility: hidden;   
+animation: slide-in 1s ease-out; 
+}
+.milieu4{
+    color: #FFFFFF;
+    margin-top: -40%;
+    background-color:#ffffffef ;
+    width: 600px;
+    height: 450px;
+    text-align: center;
+    border-radius: 100px;
+    padding-top: 3%;
+    margin-left: 30%;
+ }
+ 
+ .txt3{
+     color: black;
+     font-family:'Cantarell', sans-serif ;
+ }
+ 
+ .pantherhome7{
+     width: 1300px;
+ }
+ input{
+     width: 300px;
+     height: 30px;
+     border-radius:38px ;
+     background-color: #ffffff2f;
+     padding-left: 2%;
+     border-color: #080808c2;
+    
+ }
+ ::placeholder{
+     color: #021740;
+ }
+ 
+ .message{
+     height:120px ;
+ }
+ 
+ .envoyer{
+     width: 150px;
+     height: 40px;
+     border-radius: 38px;
+     background-color:#F2CEF2;
+ 
+ 
+ }
+ 
+
+
+ /*footer*/
+
+footer{
+    background: linear-gradient(to right,#3D2DA6,#021740);
+    color: white;
+    margin-top: 15%;
+    display: flex;
+    height: 360px;
+    padding-top: 10%;
+}
+
+.footer1{
+    width:230px;
+    margin-left: 18%;
+}
+
+.logo1{
+    margin-top: -75%;
+    margin-left: 40%;
+}
+.photo{
+    margin-left: 20%;
+}
+
+
+.page{
+    margin-left: 10%;
+}
+
+.rs{
+    margin-left:15% ;
+}
+
+.picft{
+    width: 35px;
+}
+
+.txt4{
+font-size: 17px;
+letter-spacing: 9px;
+}
+
+.txt5{
+    color: white;
+    margin-top: -15%;
+    margin-left: 45%;
+    font-size: 12px;
+}
+
+em{
+    font-size: 100px;
+    padding-right:-30%;
+    padding-left: 5%;
+}
+
+
+/* FADE IN */
+
+@keyframes slide-in{       
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
