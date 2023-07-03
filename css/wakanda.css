@@ -6,7 +6,18 @@ body {
 
     h2{
         font-family:'BEYNO', sans-serif;
+        transition: transform 0.2s;
+    }
+    h2:hover{
+        transform: scale(1.2);
+    }
+
+    h1{
         
+        transition: transform 0.2s;
+    }
+    h1:hover{
+        transform: scale(1.2);
     }
 
     p{
@@ -35,6 +46,11 @@ body {
     min-width: 120px;             /* Largeur minimale des liens */
     color: white;
     font-family: 'BEYNO', sans-serif;
+    transition: transform 0.2s;
+}
+
+.menu a:hover{
+    transform: scale(1.2);
 }
 
 .navbar{
@@ -87,6 +103,10 @@ body {
 
 
 /*milieu 1 */
+.milieu1{
+    visibility: hidden;   
+    animation: slide-in 1s ease-out;
+}
 .wakanda1{
     width: 1520px;
     height: 900px;
@@ -131,6 +151,7 @@ h1{
     background-image: url(../Pantherwakanda2.png) ;
     opacity: 0.5;
     background-size: 1100px auto;
+    animation: slide-in 1s ease-out; 
 }
 .un{
     margin-left: 10%;

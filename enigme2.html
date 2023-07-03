@@ -88,7 +88,7 @@
 
         
     <div class="left1">
-        <h2 class="engm1"> ENIGME NUMERO 2  </h2>
+        <h2 class="engm1"> ENIGME NUMERO DEUX  </h2>
         <p>Une anecdote intéressante est écrite juste en dessous mais elle est codée par un 
             code césar également appelé code de chiffrement par décalage . L’alphabet a été 
             décalé, trouve la clé de chiffrement qui te permettrait de retrouver les lettres et 
@@ -101,10 +101,19 @@
         <br>
         
 
-        <div class="form">
-             <label for=""> Alors, as tu la réponse ?</label> 
-            <input type="text" placeholder="Réponse" class="champ1">
-            <button class="envoyer"> ENVOYER </button>
+        <form id="myForm" class="form">
+            <label for=""> Alors, as tu la réponse ?</label> 
+            <input type="text" placeholder="Réponse" class="champ1" id="reponse2" name="reponse2" required> <br> <br>
+           <input type="submit" value="ENVOYER" class="envoyer">
+        </form>
+
+        <div id="popupBox">
+            <h2>BRAVO !</h2>
+                <p>Tu as trouvé la réponse. Es tu prêt <br>
+                pour l’énigme suivante ?</p>
+            <a href="enigme3.html" target="_blank">
+                <button class="suivant2">QUESTION SUIVANTE </button>
+            </a>
         </div>
     </div>
 
@@ -170,5 +179,5 @@
 
 </body>
 
-
+<script src="js/enigme2.js"></script>
 </html>

@@ -88,7 +88,7 @@
 
         
     <div class="left1">
-        <h2 class="engm1"> ENIGME NUMERO 3  </h2>
+        <h2 class="engm1"> ENIGME NUMERO TROIS  </h2>
         <p>Lorsque T’Challa mange l’herbe en forme de coeur pour recevoir les pouvoirs du 
             Black Panther, il voit son père afin de lui demander conseil afin de devenir un bon 
             roi. Cette scène rappelle la même scène d’un certain film où un père dit à son fils de 
@@ -100,11 +100,21 @@
             00001010</p>
         
 
-        <div class="form">
-             <label for=""> Alors, as tu la réponse ?</label> 
-            <input type="text" placeholder="Réponse" class="champ1">
-            <button class="envoyer"> ENVOYER </button>
-        </div>
+            <form id="myForm" class="form">
+                <label for=""> Alors, as tu la réponse ?</label> 
+                <input type="text" placeholder="Réponse" class="champ1" id="reponse3" name="reponse3" required> <br> <br>
+               <input type="submit" value="ENVOYER" class="envoyer">
+            </form>
+    
+            <div id="popupBox">
+                <h2>TON INITIATION EST <br> TERMINEE !</h2>
+                    
+                <a href="landing.html" target="_blank">
+                    <button class="suivant3">REVENIR A L'ACCUEIL </button>
+                </a>
+               <div class="special"> <img src="Illustration + Logo/figma.PNG" alt="" class="figma">
+                <h5>COMING SOON... <br> 00:00:40</h5></div>
+            </div>
     </div>
 
     <div class="right1">
@@ -169,6 +179,6 @@
 <!-- fin footer-->
 
 </body>
-
+<script src="js/enigme3.js"></script>
 
 </html>

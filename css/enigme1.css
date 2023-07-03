@@ -6,7 +6,19 @@ body {
 
     h2{
         font-family:'BEYNO', sans-serif;
+        transition: transform 0.2s;
+    }
+
+    h2:hover{
+        transform: scale(1.2);
+    }
+
+    h1{
         
+        transition: transform 0.2s;
+    }
+    h1:hover{
+        transform: scale(1.2);
     }
 
     p{
@@ -35,6 +47,11 @@ body {
     min-width: 120px;             /* Largeur minimale des liens */
     color: white;
     font-family: 'BEYNO', sans-serif;
+    transition: transform 0.2s;
+}
+
+.menu a:hover{
+    transform: scale(1.2);
 }
 
 .navbar{
@@ -177,6 +194,7 @@ h4{
     margin-top: 5%;
     padding-left: 8%;
     margin-bottom: 12%;
+    color: white;
 }
 
 .enigme4{
@@ -185,6 +203,48 @@ h4{
 }
 
 
+/*quiz1*/
+.envoyer{
+    width: 150px;
+    height: 40px;
+    border-radius: 38px;
+    background-color:#F2CEF2;
+}
+
+/* POPUP BOX FORMULAIRE */
+
+#popupBox{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 180px;
+    width: 300px;
+    transform:translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+   border-radius: 6%;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #9E91B7, #3D2DA6);
+    box-shadow: 0px 3.45px 3.45px 0px #000000 ;
+    color: black;
+}
+
+
+#popupBox h2{
+    margin-top: 20%;
+}
+
+.suivant1{
+    width: 180px;
+    height: 40px;
+    border-radius: 38px;
+    background-color:#F2CEF2;
+    margin-right: 5%;
+}
+.suivant1:hover{
+    background-color: #baa6e0;
+}
 /*footer*/
 
 footer{

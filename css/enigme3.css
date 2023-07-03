@@ -6,7 +6,19 @@ body {
 
     h2{
         font-family:'BEYNO', sans-serif;
+        transition: transform 0.2s;
+    }
+
+    h2:hover{
+        transform: scale(1.2);
+    }
+
+    h1{
         
+        transition: transform 0.2s;
+    }
+    h1:hover{
+        transform: scale(1.2);
     }
 
     p{
@@ -35,6 +47,11 @@ body {
     min-width: 120px;             /* Largeur minimale des liens */
     color: white;
     font-family: 'BEYNO', sans-serif;
+    transition: transform 0.2s;
+}
+
+.menu a:hover{
+    transform: scale(1.2);
 }
 
 .navbar{
@@ -179,6 +196,7 @@ h4{
     margin-top: 5%;
     padding-left: 8%;
     margin-bottom: 12%;
+    color: white;
 }
 
 .enigme4{
@@ -186,8 +204,47 @@ h4{
     margin-top: 25%;
 }
 
+/* POPUP BOX FORMULAIRE */
 
+#popupBox
+{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    background-image: linear-gradient(to bottom, #9E91B7, #3D2DA6);
+    height: 350px;
+    width: 500px;
+    text-align: center;
+    padding-top: 2%;
+    border-radius: 8%;
+}
+.figma{
+   margin-left: -40%;
+    margin-bottom: -50%;
+    margin-top: 20%;
+}
+.suivant3{
+    width: 180px;
+    height: 40px;
+    border-radius: 38px;
+    background-color:#F2CEF2;
+    margin-right: 8%;
+    margin-top: 16%;
+    
+}
 
+.suivant3:hover{
+    background-color: #baa6e0;
+}
+h5{
+    font-size: 20px;
+    margin-top: 20%;
+    margin-left: 8%;
+}
 
 /*footer*/
 
